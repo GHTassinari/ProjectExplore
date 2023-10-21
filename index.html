@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explore without limits</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!-- Mulish Weight Black, SemiBold and Bold  -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <img
+        class="astronaut"
+        src="./assets/astronaut.png"
+        alt="An astronaut flutuating"
+      />
+      <div class="header-text">
+        <h1>Explore without limits</h1>
+        <h3>Because learning is continuous</h3>
+      </div>
+      <div class="header-button">
+        <img
+          src="./assets/button-1.svg"
+          alt="Button that goes to the main part of the page."
+        />
+      </div>
+    </header>
+    <main>
+      <div class="planet">
+        <img src="./assets/planet-1.png" alt="A yellow planet" />
+        <h2>Don't ever stop</h2>
+        <p>
+          If you want to have sucess at studies, it's fundamental that you adopt
+          a mindset of "Don't ever stop". Studying consistently and continously
+          is the key for progress and conquering your goals.
+        </p>
+      </div>
+      <div class="planet">
+        <img src="./assets/planet-2.png" alt="A blue planet" />
+        <h2>Just come back</h2>
+        <p>
+          If you stopped just come back or lost the rhythm at some activity or
+          project, know that never is late to restart. Sometimes, the
+          circumstances can change, or we call feel unmotivated or overwhelmed
+        </p>
+      </div>
+      <div class="planet">
+        <img src="./assets/planet-3.png" alt="A pink planet" />
+        <h2>Go at your own pace</h2>
+        <p>
+          Advance little by little keep your constant progress in goals,
+          avoiding giving up. Even little steps bring us closer and motivate the
+          continuity. Don't underestimate the power of each action towards a
+          final objective.
+        </p>
+      </div>
+    </main>
+
+    <form id="form" class="form-container">    
+      <legend>Contact Us</legend>    
+      <fieldset>
+        <div class="input-wrapper" id="input-name">
+          <input type="text" id="user-name" placeholder="Your name" />
+        </div>
+
+        <div class="input-wrapper" id="input-email">
+          <input type="email" id="user-email" placeholder="Email" />
+        </div>
+        <div class="input-wrapper">
+          <textarea
+            id="message"
+            placeholder="Write your message here..."
+          ></textarea>
+        </div>
+
+        <input type="submit" class="button" value="Send message" form="form" />
+      </fieldset>
+    </form>
+
+    <footer>
+      <h4>© 2023 - Rocketseat Explorer</h4>
+    </footer>
+  </body>
+</html>
